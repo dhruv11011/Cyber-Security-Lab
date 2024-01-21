@@ -1,0 +1,75 @@
+=============================================================
+                    Scripting and Automation:
+=============================================================
+Bash Script Execution: bash script.sh
+Python Script Execution: python script.py
+Scheduled Task (Linux): cronjob -e
+=============================================================
+
+=============================================================
+                    System Administration:
+=============================================================
+Check System Information: uname -a
+System Resource Usage: top or htop
+System Logs: dmesg or journalctl
+User Management: useradd, userdel, passwd
+=============================================================
+
+=============================================================
+            Network Configuration and Analysis:
+=============================================================
+Network Configuration: ifconfig or ip addr
+Network Statistics: netstat or ss
+Ping Test: ping example.com
+Traceroute: traceroute example.com
+=============================================================
+
+=============================================================
+                File and Directory Management:
+=============================================================
+List Files and Directories: ls
+Create Directory: mkdir directory_name
+Copy Files: cp source destination
+Move/Rename File: mv old_name new_name
+Remove/Delete File: rm file_name
+=============================================================
+
+=============================================================
+                    Process Management:
+=============================================================
+List Processes: ps aux or top
+Kill Process by PID: kill PID
+Background Process: command &
+Foreground Process: fg
+=============================================================
+
+=============================================================
+            Security Auditing and Monitoring:
+=============================================================
+Check System Logs: journalctl or dmesg
+Auditd (Linux Audit Framework): auditctl, ausearch
+Security Scanning: nmap
+=============================================================
+
+=============================================================
+                    Password Management:
+=============================================================
+Change User Password: passwd
+Force User to Change Password: chage -d 0 username
+Password Policy Configuration (Linux): pam_tally2, pam_pwquality
+=============================================================
+
+=============================================================
+                    Network Security:
+=============================================================
+Firewall Configuration (Linux): iptables or ufw
+Check Open Ports: netstat -tulpn or ss -tulpn
+Intrusion Detection System (IDS): snort
+=============================================================
+
+=============================================================
+                        Incident Response:
+=============================================================
+Check System Logs: journalctl or dmesg
+Packet Capture (Wireshark): tcpdump, wireshark
+File Integrity Monitoring (Linux): tripwire
